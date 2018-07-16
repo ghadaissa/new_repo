@@ -1,0 +1,74 @@
+<!DOCTYPE html><!DOCTYPE html>
+<html>
+
+
+<style> 
+div {
+    border-collapse: collapse;
+  
+}
+
+#myHeader {
+    color: white;
+    padding: 5px;
+    text-align: center;
+    font-style: italic;
+} 
+
+#a1 {
+    margin-left: 250px;
+}
+
+
+.button {
+    background-color:  #660022;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+
+}
+
+#img {
+    margin-right: 25% ; 
+    margin-left: 25% ; 
+    margin-top: 2%
+}
+
+table {
+    width: 80%;
+    background-color: #ccff99;
+    border-collapse: collapse;
+    margin: auto;
+}
+td, th {
+    border: 5px solid #000000;
+    text-align: center;
+    padding: 8px;
+
+}
+
+</style>
+
+
+
+<body background="/home/code/Desktop/balcksky.png">
+
+
+
+
+<div style="background-color:#a6a6a6">
+    <a id= a1 href="home.html" class="button">Home </a>
+    <a id= a2 href="about.html" class="button">About</a>
+    <a id= a2 href="hobbies.html" class="button">Hobbies</a>
+    <a id= a3 href="projects.html" class="button">Projects</a>
+
+</diV>
+
+</body>
+
+</html

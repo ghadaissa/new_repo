@@ -1,0 +1,174 @@
+<!DOCTYPE html><!DOCTYPE html>
+<html>
+
+<style>
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    position: fixed;
+    right:0.5px;
+    width: 100%;
+
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #111;
+}
+
+
+.active {
+    background-color: #009933;
+}
+
+#r {
+    font-size: 70px;
+    
+}
+
+#img {
+    padding-right: 20px;
+    padding-top: 20px;
+
+}
+
+h2 {
+    font-style: oblique;
+}
+
+.overlay {
+    position: relative;
+    width: 800px;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+.img2 {
+
+  display: block;
+  width: 800px;
+  height: 450px;
+  margin-left:auto;
+  margin-right:auto;
+  margin-top:100px;
+
+}
+
+.overlay:hover .img2{
+  opacity: 0.3;
+}
+
+.join {
+  opacity: 0;
+  position: absolute;
+  width:800px;
+  height:450px;
+  top: 0px;
+  left: 0px;
+  text-align: center;
+}
+
+.overlay:hover .join {
+  opacity: 1;
+}
+
+.text {
+  background-color: #009933;
+  color: black;
+  font-size: 16px;
+  padding: 16px 32px;
+}
+
+.overlay2 {
+    position: relative;
+    width: 600px;
+}
+
+.img3 {
+
+  display: block;
+  width: 600px;
+  height: 400px;
+  margin-top:100px;
+
+}
+
+.overlay2:hover .img3{
+  opacity: 0.3;
+}
+
+.join2 {
+  opacity: 0;
+  position: absolute;
+  width:600px;
+  height:400px;
+  top: 0px;
+  left: 0px;
+  text-align: center;
+}
+
+.overlay2:hover .join2 {
+  opacity: 1;
+}
+.text2 {
+  background-color: #ff6600;
+  color: white;
+  font-size: 16px;
+  padding: 16px 32px;
+}
+
+</style>
+
+<body  bgcolor="#ffffff">
+<img id="img"  src="/home/code/Desktop/book.png" alt="ghada's image" height="100" width="100" align="right" >
+<a id="r"> we 
+    <img id="img"  src="/home/code/Desktop/heart2.png" alt="ghada's image" height="50" width="50"> story time 
+</a>
+
+<H2> Where your story begins... </H2>
+
+<ul>
+  <li><a class="active" href="#home">Home</a></li>
+  <li><a href="#about">about</a></li>
+  <li><a href="#contact">Contact</a></li>
+  <li><a href="#sign up">sign up </a></li>
+</ul>
+
+
+
+<div class="overlay">
+    <img class="img2"  src="/home/code/Desktop/writing.png" alt="ghada's image" height="450" width="800">  
+  <div class="join">
+    <div class="text">join us now and start write own story</div>
+  </div>
+</div>
+
+<div class="overlay2">
+    <img class="img3"  src="/home/code/Desktop/bookshelves.jpg" alt="ghada's image" height="33.3%" width="33.3%">  
+  <div class="join2">
+    <div class="text2">read a story!!</div>
+  </div>
+</div>
+
+
+
+
+
+</body>
+
+</html
